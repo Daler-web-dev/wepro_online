@@ -1,0 +1,141 @@
+@media only screen and (max-width: 650px) {
+    header {
+        width: 100%;
+        padding: 27px 25px;
+    }
+    header .left-side {
+        display: none;
+    }
+    header .burger-btn {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    header .burger-btn div {
+        width: 35px;
+        height: 4px;
+        background-color: black;
+    }
+    header .burger-btn div:nth-child(1) {
+        margin-bottom: 5px;
+    }
+    .screen-one .center h1 {
+        font-size: 36px;
+    }
+    .screen-one .center span {
+        font-size: 16px;
+    }
+    .screen-one .center {
+        align-items: flex-start;
+        text-align: start;
+        width: 90%;
+    }
+
+    /* screen two */
+
+    .screen-two {
+        width: 90%;
+    }
+    .screen-two h2 {
+        font-size: 22px;
+    }
+    .container .item {
+        width: 100%;
+    }
+    .container .item-number {
+        width: 100%;
+    }
+    .item-number .text .black-mini-text {
+        margin-bottom: 5px;
+        margin-top: 22px;
+    }
+    /*screen form  */
+    .screen-form {
+        height: 100%;
+        padding: 52px 0px;
+    }
+    .screen-form .form-container {
+        width: 90%;
+    }
+    .screen-form .form-container h2 {
+        font-size: 22px;
+        width: 100%;
+    }
+    .screen-form .form-container span {
+        font-size: 16px;
+        width: 100%;
+    }
+    .form-container form input {
+        width: 100%;
+        margin-bottom: 18px;
+    }
+    .form-container form .blue-btn {
+        width: 100% !important;
+    }
+
+    /* school map */
+
+    .school-map {
+        display: none;
+    }
+
+    /* grid */
+
+    .grid  {
+        width: 90%;
+        margin: 100px auto;
+    }
+
+
+    .grid .container {
+        grid-template-columns: repeat(2,1fr);
+        grid-auto-rows: 181px ;
+    }
+    .grid .container .teacher-item h3 {
+        font-size: 18px;
+    }
+    .grid .container .teacher-item span {
+        font-size: 14px;
+    }
+
+    /* questions */
+
+    .questions {
+        width: 90%;
+    }
+    .questions .question-item {
+        margin-bottom: 22px;
+    }
+    .question-item h3 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .question-item p {
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 52px 25px;
+    }
+    footer .wrapper {
+        width: 90%;
+        flex-direction: row;
+    }
+    footer .wrapper .top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    footer .wrapper .top h3 {
+        font-size: 22px;
+        text-align: start !important;
+        margin-bottom: 20px;
+    }
+    footer .wrapper .bottom .links {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+    footer .wrapper .bottom span {
+        transform: translate(-40px, 125px);
+    }
+} 
